@@ -1,0 +1,79 @@
+.product-price-rating {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.current-price {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41.15px;
+  color: #3a4980;
+}
+
+.original-price {
+  font-size: 16px;
+  color: #888;
+  text-decoration: line-through;
+}
+
+.rating-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.star-rating {
+  background-color: #fff0e0;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.star {
+  color: #ffa41c;
+  margin-right: 5px;
+}
+
+.rating-value {
+  font-weight: bold;
+  color: #D48D3B;
+}
+
+.reviews-count {
+  background-color: #edf0f8;
+  padding: 5px 10px;
+  border-radius: 15px;
+  display: flex;
+  gap: 5px;
+}
+
+.count{
+  color: #3A4980;
+  font-weight: 600;
+}
+
+.recommendation {
+  font-size: 14px;
+  color: #4caf50;
+}
+
+.recommendation-percentage {
+  font-weight: bold;
+}
+
+.recommendation-text {
+  color: #b9bbbf;
+}

@@ -1,0 +1,21 @@
+.page-body {
+  display: flex;
+  height: calc(100% - 110px);
+  padding-top: 30px;
+}
+
+.product-img {
+  width: 70%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.product-img .img__banner {
+  width: 90%;
+  height: 74%;
+}
+
+.product-detail {
+  width: 30%;
+}
